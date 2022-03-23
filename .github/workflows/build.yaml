@@ -20,8 +20,8 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: sonar-pmd-plugin/target/sonar-pmd-plugin-3.2.1.jar
-          asset_name: sonar-pmd-plugin-3.2.1.jar
+          file: sonar-pmd-plugin/target/sonar-pmd-plugin-zh-3.2.1.jar
+          asset_name: sonar-pmd-plugin-zh-3.2.1.jar
           #tag: ${{ github.ref }}
           tag: latest
           overwrite: true
